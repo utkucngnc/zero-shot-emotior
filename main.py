@@ -5,7 +5,7 @@ Note: This code assumes that the ZeroShotEmotior class and its dependencies are 
 
 """
 
-from zero_shot_emotior import ZeroShotEmotior
+from src.zero_shot_emotior import ZeroShotEmotior
 import cv2
 
 def main():
