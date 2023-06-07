@@ -3,9 +3,9 @@ Python code for zero-shot emotion detection on faces in an image using the CLIP 
 """
 
 import torch
-from face_detector import MultiFaceDetector
-from face_drawer import MultiFaceDrawer
-from config import model, processor, candidate_labels
+from src.face_detector import MultiFaceDetector
+from src.face_drawer import MultiFaceDrawer
+from src.config import model, processor, candidate_labels
 from typing import List, Dict, Any, Tuple, Union
 
 class ZeroShotEmotior:
